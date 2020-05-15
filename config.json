@@ -1,0 +1,46 @@
+{
+  "run": {
+    "baseUrl": "https://www.seleniumeasy.com/test/",
+    "seleniumAddress": "https://vir:7dGI0Rp6VwUwC8nQZMAvx86K2ANT8zBepeyvaEmpkGjP992MrY@hub.lambdatest.com/wd/hub",
+    "by": {
+      "tag": [
+        "FO1"
+      ]
+    },
+    "browser": {
+      "name": [
+        "chrome"
+      ]
+    },
+    "capabilities": {
+      "chrome": {
+        "build" : "Tesbo_With_LambdaTest",
+        "name" : "Tesbo",
+        "platform": "Windows 10",
+        "browserName": "Chrome",
+        "version": "83.0"
+      }
+    },
+
+    "parallel": {
+      "status": false,
+      "count": "3"
+    },
+    "retryAnalyser":{
+      "count":"0"
+    },
+    "binaries": {
+      "chrome": ""
+    },
+
+    "highlightElement": true,
+    "IsGrid": false
+  },
+
+  "cloudIntegration" : {
+    "report": false,
+    "apiKey": "d31129abe90e5e2086e56a26995cc1cc",
+    "projectKey" : "5cd2e1f802d39139e8bf5092",
+    "buildName":"QAbleTest001"
+  }
+}

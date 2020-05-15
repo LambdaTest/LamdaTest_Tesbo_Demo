@@ -1,0 +1,13 @@
+{
+  "No_Thanks_Button_On_Popup": "//a[contains(text(),'No, thanks!')]",
+  "Basic_Icon": "basic_example",
+  "Check_Box_Demo_Option": "//a[contains(text(),'Check Box Demo')]",
+  "Check_All_Button": "check1",
+  "Checked_All_Check_Box": "isChkd",
+  "Uncheck_All_Button": "check1",
+  "Single_Check_Box": "isAgeSelected",
+  "Checked_Successfully_Message": "txtAge",
+  "Javascript_Alerts_Option": "(//a[contains(text(),'Javascript Alerts')])[3]",
+  "Alert_Box_Page_Heading": "//h3",
+  "Click_Me_Button_Of_Alert_Box": "(//button[contains(text(),'Click me!')])[1]"
+}

@@ -1,0 +1,37 @@
+Test: Verify Ajax input forms functionality
+#FO1 #Forms #All
+Step: pause until @No_Thanks_Button_On_Popup is display
+Step: Click on @No_Thanks_Button_On_Popup
+Verify: Page Title is equal to 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online'
+Step: Scroll to Bottom
+Verify: @Intermediate_Icon is displayed
+Step: Click on @Intermediate_Icon
+Verify: @Ajax_Form_Submit_Option is displayed
+Step: Click on @Ajax_Form_Submit_Option
+Verify: @Page_Heading text is equal to ignore case 'ajax form submit with Loading Icon'
+Step: Enter 'Tesbo' in @Name_Text_Box_Field
+Step: Enter 'Tesbo is the hybrid test framework that is built upon the keyword-driven.' in @Comment_Text_Box_Field
+Step: Click on @Submit_Button
+Verify: @Confirmation_message text is equal to 'Form submited Successfully!'
+End
+
+Test: Verify JQuery List Box functionality
+#LB1 #ListBox #All
+Step: pause until @No_Thanks_Button_On_Popup is display
+Step: Click on @No_Thanks_Button_On_Popup
+Verify: Page Title is equal to 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online'
+Step: Scroll to Bottom
+Verify: @Intermediate_Icon is displayed
+Step: Click on @Intermediate_Icon
+Verify: @JQuery_List_Box_Option is displayed
+Step: Click on @JQuery_List_Box_Option
+Verify: @List_Box_Page_Heading text contains is 'JQuery Dual List'
+Step: Select using index 3 from @Source_List_Box
+Step: Click on @Add_Button
+Verify: @Added_List_Value text is equal to 'Isabella'
+Step: Select using text 'Alice' from @Source_List_Box
+Step: Click on @Add_Button
+Step: Select using index 0 from @Destination_List_Box
+Step: Click on @Remove_Button
+Verify: @Destination_List_Size has size of '1'
+End

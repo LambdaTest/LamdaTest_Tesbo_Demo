@@ -1,0 +1,17 @@
+{
+  "Intermediate_Icon": "inter_example",
+  "Ajax_Form_Submit_Option": "(//a[contains(text(),'Ajax Form Submit')])[3]",
+  "Page_Heading": "//h1",
+  "Name_Text_Box_Field": "//label[contains(text(),'Name:')]/../input",
+  "Comment_Text_Box_Field": "description",
+  "Submit_Button": "btn-submit",
+  "Confirmation_message": "submit-control",
+  "JQuery_List_Box_Option": "(//a[contains(text(),'JQuery List Box')])[3]",
+  "List_Box_Page_Heading": "//h2",
+  "Source_List_Box": "(//select)[1]",
+  "Destination_List_Box": "(//select)[2]",
+  "Add_Button": "(//button[contains(text(),'Add')])[1]",
+  "Remove_Button": "(//button[contains(text(),'Remove')])[1]",
+  "Added_List_Value": "(//select)[2]/option[1]",
+  "Destination_List_Size": "(//select)[2]/option"
+}

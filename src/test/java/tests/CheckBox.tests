@@ -1,0 +1,51 @@
+
+Test: Verify Check all button functionality
+#CH1 #CheckBox #All
+Step: pause until @No_Thanks_Button_On_Popup is display
+Step: Click on @No_Thanks_Button_On_Popup
+Verify: Page Title is equal to 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online'
+Step: Scroll to Bottom
+Verify: @Basic_Icon is displayed
+Step: Click on @Basic_Icon
+Verify: @Check_Box_Demo_Option is displayed
+Step: Click on @Check_Box_Demo_Option
+Verify: Current url is equal to 'https://www.seleniumeasy.com/test/basic-checkbox-demo.html'
+Step: Scroll to Bottom
+Verify: @Check_All_Button is displayed
+Step: Click on @Check_All_Button
+Verify: Get attribute 'value' of @Checked_All_Check_Box is equal to 'true'
+Verify: @Uncheck_All_Button is displayed
+End
+
+Test: Verify Check single check box functionality
+#CH2 #CheckBox #All
+Step: pause until @No_Thanks_Button_On_Popup is display
+Step: Click on @No_Thanks_Button_On_Popup
+Verify: Page Title is equal to 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online'
+Step: Scroll to Bottom
+Verify: @Basic_Icon is displayed
+Step: Click on @Basic_Icon
+Verify: @Check_Box_Demo_Option is displayed
+Step: Click on @Check_Box_Demo_Option
+Verify: Current url is equal to 'https://www.seleniumeasy.com/test/basic-checkbox-demo.html'
+Verify: @Single_Check_Box is displayed
+Step: Click on @Single_Check_Box
+Verify: @Checked_Successfully_Message text is equal to 'Success - Check box is checked'
+End
+
+Test: Verify Alert box functionality
+#Al1 #AlertBox #All
+Step: pause until @No_Thanks_Button_On_Popup is display
+Step: Click on @No_Thanks_Button_On_Popup
+Verify: Page Title is equal to 'Selenium Easy - Best Demo website to practice Selenium Webdriver Online'
+Step: Scroll to Bottom
+Verify: @Basic_Icon is displayed
+Step: Click on @Basic_Icon
+Verify: @Javascript_Alerts_Option is displayed
+Step: Click on @Javascript_Alerts_Option
+Verify: @Alert_Box_Page_Heading text contains is 'JavaScript has three kind of popup boxes'
+Step: Click on @Click_Me_Button_Of_Alert_Box
+Step: Switch to alert then verify text with 'I am an alert box!'
+Step: Switch to alert then accept
+Step: Pause for 2 Sec
+End
