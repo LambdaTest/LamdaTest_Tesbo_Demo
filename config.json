@@ -1,7 +1,7 @@
 {
   "run": {
     "baseUrl": "https://www.seleniumeasy.com/test/",
-    "seleniumAddress": "https://vir:7dGI0Rp6VwUwC8nQZMAvx86K2ANT8zBepeyvaEmpkGjP992MrY@hub.lambdatest.com/wd/hub",
+    "seleniumAddress": "https://{userName}:{ApiKey}@hub.lambdatest.com/wd/hub",
     "by": {
       "tag": [
         "FO1"
