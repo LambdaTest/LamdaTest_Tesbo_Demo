@@ -3,7 +3,7 @@
 This Project Included the Configuration to run Tesbo Test on the [LamdaTest](https://www.lambdatest.com/selenium-automation) : A test execution platform, which offer 2000+ browsers & OS to run tests on
 
 
-How to Run Tesbo Test On Lamda Test : 
+#### How to Run Tesbo Test On Lamda Test : 
 
 1. Open Config.json
 2. Setup Selenium address key 
