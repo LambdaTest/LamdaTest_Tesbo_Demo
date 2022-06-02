@@ -1,4 +1,4 @@
-# Selenium Automation Testing With Tesbo On LambdaTest
+# Run Selenium Tests With Tesbo On LambdaTest
 
 ![image](https://user-images.githubusercontent.com/70570645/171464306-1da0360c-de4f-40a0-817a-1855088553b9.png)
 
@@ -215,4 +215,4 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 ## We are here to help you :headphones:
 
 * Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
-* For more info, visit - https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo
+* For more info, visit - [LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
