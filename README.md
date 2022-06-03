@@ -19,7 +19,9 @@
 &emsp;
 &emsp;
 
-*Learn how to use Tesbo framework to configure and run your Java automation testing scripts on the LambdaTest platform*
+*Learn how to use Tesbo framework to configure and run your automation testing scripts on the LambdaTest platform*
+
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
 
 ## Table of Contents:
 
@@ -37,6 +39,8 @@
 
 
 After you download or clone the LambdaTest-Tesbo Repository, you will find the test folder which would have your test files by the name [CheckBox.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/CheckBox.tests) & [FormsAndList.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/FormsAndList.tests).
+
+>**Test Scenario**: The CheckBox.tests file tests Check all button functionality whereas the FormsAndList.tests file tests AJAX input forms functionality.
 
 Now that you have your test scripts ready with you, a few edits to the `config.json` is all that is required to run your test files over LambdaTest Selenium Grid. 
 
@@ -208,8 +212,7 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 * LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
 
     
-[<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
-
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
 
       
 ## We are here to help you :headphones:
