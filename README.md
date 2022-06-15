@@ -57,7 +57,7 @@ https://{LambdaTest_Username}:{LambdaTest_Access_Key}@hub.lambdatest.com/wd/hub
 ```javascript
 "IsGrid": true
 ```
-**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the LambdaTest Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from LambdaTest [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator) to fetch the capabilities class.
+**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the LambdaTest Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from LambdaTest [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) to fetch the capabilities class.
 
 ![1-4d66a8cd468232f272009c1dda3a7f87](https://user-images.githubusercontent.com/70570645/170709877-d2856f3f-1b16-4a2b-bcd4-e2759ded09b6.png)
 
@@ -174,7 +174,7 @@ Here is the new config.json to run parallel testing with Tesbo & LambdaTest.
 ```
 ## LambdaTest Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
+The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
 
 ## Documentation & Resources :books:
 
@@ -190,7 +190,7 @@ The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&u
 
 ## What's New At LambdaTest ❓
 
-To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/) 
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) 
       
 ## About LambdaTest
 
