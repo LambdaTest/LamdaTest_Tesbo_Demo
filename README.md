@@ -3,15 +3,15 @@
 ![image](https://user-images.githubusercontent.com/70570645/171464306-1da0360c-de4f-40a0-817a-1855088553b9.png)
 
 <p align="center">
-  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=blog" target="_bank">Blog</a>
+  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Blog</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=docs" target="_bank">Docs</a>
+  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Docs</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=hub" target="_bank">Learning Hub</a>
+  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Learning Hub</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=newsletter" target="_bank">Newsletter</a>
+  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Newsletter</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=certifications" target="_bank">Certifications</a>
+  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Certifications</a>
   &nbsp; &#8901; &nbsp;
   <a href="https://www.youtube.com/c/LambdaTest" target="_bank">YouTube</a>
 </p>
@@ -21,7 +21,7 @@
 
 *Learn how to use Tesbo framework to configure and run your automation testing scripts on the LambdaTest platform*
 
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=register)
+[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
 
 ## Table of Contents:
 
@@ -57,7 +57,7 @@ https://{LambdaTest_Username}:{LambdaTest_Access_Key}@hub.lambdatest.com/wd/hub
 ```javascript
 "IsGrid": true
 ```
-**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the LambdaTest Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from LambdaTest [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=caps) to fetch the capabilities class.
+**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the LambdaTest Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from LambdaTest [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) to fetch the capabilities class.
 
 ![1-4d66a8cd468232f272009c1dda3a7f87](https://user-images.githubusercontent.com/70570645/170709877-d2856f3f-1b16-4a2b-bcd4-e2759ded09b6.png)
 
@@ -174,27 +174,27 @@ Here is the new config.json to run parallel testing with Tesbo & LambdaTest.
 ```
 ## LambdaTest Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=community) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
+The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
 
 ## Documentation & Resources :books:
 
 Visit the following links to learn more about LambdaTest's features, setup and tutorials around test automation, mobile app testing, responsive testing, and manual testing.
 
-* [LambdaTest Documentation](https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=docs)
-* [LambdaTest Blog](https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=blog)
-* [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=hub)  
+* [LambdaTest Documentation](https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+* [LambdaTest Blog](https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+* [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)  
       
  ## LambdaTest Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=community) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
+The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
 
 ## What's New At LambdaTest ❓
 
-To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=changelog) 
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com) 
       
 ## About LambdaTest
 
-[LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=home) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
+[LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
 
 ### Features
 
@@ -212,10 +212,10 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
 * LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
 
     
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=register)
+[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
 
       
 ## We are here to help you :headphones:
 
 * Got a query? we are available 24x7 to help. [Contact Us](mailto:support@lambdatest.com)
-* For more info, visit - [LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo&utm_term=sk&utm_content=home)
+* For more info, visit - [LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
