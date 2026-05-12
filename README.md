@@ -1,25 +1,25 @@
-# Run Selenium Tests With Tesbo On LambdaTest
+# Run Selenium Tests With Tesbo — TestMu AI (Formerly LambdaTest)
 
 ![image](https://user-images.githubusercontent.com/70570645/171464306-1da0360c-de4f-40a0-817a-1855088553b9.png)
 
 <p align="center">
-  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Blog</a>
+  <a href="https://www.testmuai.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Blog</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Docs</a>
+  <a href="https://www.testmuai.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Docs</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Learning Hub</a>
+  <a href="https://www.testmuai.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Learning Hub</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Newsletter</a>
+  <a href="https://www.testmuai.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Newsletter</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Certifications</a>
+  <a href="https://www.testmuai.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo" target="_bank">Certifications</a>
   &nbsp; &#8901; &nbsp;
-  <a href="https://www.youtube.com/c/LambdaTest" target="_bank">YouTube</a>
+  <a href="https://www.youtube.com/@TestMuAI" target="_bank">YouTube</a>
 </p>
 &emsp;
 &emsp;
 &emsp;
 
-*Learn how to use Tesbo framework to configure and run your automation testing scripts on the LambdaTest platform*
+*Learn how to use Tesbo framework to configure and run your automation testing scripts on the TestMu AI platform*
 
 [<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
 
@@ -38,15 +38,15 @@
 ## Running The Tesbo Test Automation Script On Online Selenium Grid
 
 
-After you download or clone the LambdaTest-Tesbo Repository, you will find the test folder which would have your test files by the name [CheckBox.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/CheckBox.tests) & [FormsAndList.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/FormsAndList.tests).
+After you download or clone the TestMu AI-Tesbo Repository, you will find the test folder which would have your test files by the name [CheckBox.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/CheckBox.tests) & [FormsAndList.tests](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/src/test/java/tests/FormsAndList.tests).
 
 >**Test Scenario**: The CheckBox.tests file tests Check all button functionality whereas the FormsAndList.tests file tests AJAX input forms functionality.
 
-Now that you have your test scripts ready with you, a few edits to the `config.json` is all that is required to run your test files over LambdaTest Selenium Grid. 
+Now that you have your test scripts ready with you, a few edits to the `config.json` is all that is required to run your test files over TestMu AI Selenium Grid. 
 
 Let's have a look at how to edit these files.
 
-**Step 1:** You need to specify the Selenium Address in your `config.json` that would point your tests to the Hub URL of LambdaTest Selenium Grid. Your Selenium Address would be:
+**Step 1:** You need to specify the Selenium Address in your `config.json` that would point your tests to the Hub URL of TestMu AI Selenium Grid. Your Selenium Address would be:
 
 ```javascript
 https://{LambdaTest_Username}:{LambdaTest_Access_Key}@hub.lambdatest.com/wd/hub
@@ -57,13 +57,13 @@ https://{LambdaTest_Username}:{LambdaTest_Access_Key}@hub.lambdatest.com/wd/hub
 ```javascript
 "IsGrid": true
 ```
-**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the LambdaTest Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from LambdaTest [Desired Capability Generator](https://www.lambdatest.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) to fetch the capabilities class.
+**Step 3:** Define your desired capabilities. By defining your desired capabilities, you are informing the TestMu AI Selenium Grid about the configurations over which you wish your test automation script to run. You can take help from TestMu AI [Desired Capability Generator](https://www.testmuai.com/capabilities-generator/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) to fetch the capabilities class.
 
 ![1-4d66a8cd468232f272009c1dda3a7f87](https://user-images.githubusercontent.com/70570645/170709877-d2856f3f-1b16-4a2b-bcd4-e2759ded09b6.png)
 
 Check out the complete [config.json](https://github.com/LambdaTest/LamdaTest_Tesbo_Demo/blob/master/config.json) file.
 
-Now just hit the run button and you will find your test automation scripts running over the LambdaTest Selenium Grid.
+Now just hit the run button and you will find your test automation scripts running over the TestMu AI Selenium Grid.
 
 ## Performing Parallel Testing With Online Selenium Grid
 
@@ -172,50 +172,41 @@ Here is the new config.json to run parallel testing with Tesbo & LambdaTest.
   }
 }
 ```
-## LambdaTest Community :busts_in_silhouette:
+## TestMu AI Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
+The [TestMu AI Community](https://community.testmuai.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
 
 ## Documentation & Resources :books:
 
-Visit the following links to learn more about LambdaTest's features, setup and tutorials around test automation, mobile app testing, responsive testing, and manual testing.
+Visit the following links to learn more about TestMu AI's features, setup and tutorials around test automation, mobile app testing, responsive testing, and manual testing.
 
-* [LambdaTest Documentation](https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
-* [LambdaTest Blog](https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
-* [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)  
+* [TestMu AI Documentation](https://www.testmuai.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+* [TestMu AI Blog](https://www.testmuai.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+* [TestMu AI Learning Hub](https://www.testmuai.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)  
       
- ## LambdaTest Community :busts_in_silhouette:
+ ## TestMu AI Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
+The [TestMu AI Community](https://community.testmuai.com/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
 
-## What's New At LambdaTest ❓
+## What's New At TestMu AI ❓
 
-To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com) 
-      
-## About LambdaTest
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com)
 
-[LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
+## 🚀 [LambdaTest is Now TestMu AI](https://www.testmuai.com/lambdatest-is-now-testmuai/)
 
-### Features
+👋 Welcome to TestMu AI, the next evolution of LambdaTest. As of January 2026, LambdaTest has officially rebranded to TestMu AI. We have evolved from a cross-browser testing cloud into a unified, AI-native quality engineering platform designed for the modern DevOps era.
 
-* Run Selenium, Cypress, Puppeteer, Playwright, and Appium automation tests across 3000+ real desktop and mobile environments.
-* Real-time cross browser testing on 3000+ environments.
-* Test on Real device cloud
-* Blazing fast test automation with HyperExecute
-* Accelerate testing, shorten job times and get faster feedback on code changes with Test At Scale.
-* Smart Visual Regression Testing on cloud
-* 120+ third-party integrations with your favorite tool for CI/CD, Project Management, Codeless Automation, and more.
-* Automated Screenshot testing across multiple browsers in a single click.
-* Local testing of web and mobile apps.
-* Online Accessibility Testing across 3000+ desktop and mobile browsers, browser versions, and operating systems.
-* Geolocation testing of web and mobile apps across 53+ countries.
-* LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
+Whether you have been part of the LambdaTest community for years or are just discovering TestMu AI, our mission remains the same: to help you ship faster with high-scale test execution, autonomous testing, and deep quality analytics.
 
-    
-[<img height="58" width="200" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register/?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+**🔄 Our Rebrand Journey**
 
-      
-## We are here to help you :headphones:
+We chose the name TestMu AI to reflect our shift towards intelligent, autonomous testing. While our identity has changed, our core technology and commitment to the testing community stay the same.
 
-* Got a query? we are available 24x7 to help. [Contact Us](mailto:support@lambdatest.com)
-* For more info, visit - [LambdaTest](https://www.lambdatest.com?utm_source=github&utm_medium=repo&utm_campaign=LamdaTest_Tesbo_Demo)
+**✨ Specialties**
+
+- 🤖 AI-Native Test Execution (Formerly LambdaTest)
+- ⚡ Autonomous Test Automation
+- 🌐 Cross-Browser & Mobile Testing
+- 📊 Unified Quality Intelligence
+
+👉 Find [LambdaTest's New Home](https://www.testmuai.com/).
