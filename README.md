@@ -13,7 +13,7 @@
 With TestMu AI (Formerly LambdaTest), you can run Tesbo tests across real browsers and operating systems. This sample shows how to configure Tesbo to run on the TestMu AI cloud.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/executing-tesbo-automation-script-over-online-selenium-grid/) for the full setup walkthrough.
+- Follow the [Run Tesbo tests with Selenium on TestMu AI](https://www.testmuai.com/support/docs/executing-tesbo-automation-script-over-online-selenium-grid/) for the full setup walkthrough.
 
 ### Prerequisites
 
